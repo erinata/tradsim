@@ -4,17 +4,17 @@ A Ruby Gem for translation between Traditional Chinese and Simplified Chinese. T
 
 ## Installation
 
-```ruby
-gem install tradsim
-```
+    gem install tradsim
 
 ## Usage
 
 Currently tradsim only work in UTF-8 encoding, put `# encoding: UTF-8` OR `#!/usr/bin/env ruby -wKU` at the beginning of the ruby code.
 
 To use tradsim,
-		
-		require 'tradsim'
+
+```ruby		
+require 'tradsim'
+```
 
 To translate Traditional Chinese text to Simplified Chinese,
 
