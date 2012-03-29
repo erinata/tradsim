@@ -4,8 +4,8 @@ require File.expand_path('../lib/tradsim/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["erinata"]
   gem.email         = ["erinata@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A Ruby gem for translation between Traditional Chinese and Simplified Chinese}
+  gem.summary       = %q{This gem provide translation betweenTraditional Chinese and Simplified Chinese. The gem include a mapping dictionary so it doesn't get the translation from a web service.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "tradsim"
   gem.require_paths = ["lib"]
   gem.version       = Tradsim::VERSION
+
+  gem.add_development_dependency "rspec"
 end
