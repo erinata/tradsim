@@ -4,9 +4,9 @@ A Ruby Gem for translation between Traditional Chinese and Simplified Chinese. T
 
 ## Installation
 
-		```ruby
-    gem install tradsim
-    ```
+```ruby
+gem install tradsim
+```
 
 ## Usage
 
