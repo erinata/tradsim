@@ -1,20 +1,10 @@
 # Tradsim
 
-A Ruby gem for translation between Traditional Chinese and Simplified Chinese.
+A Ruby gem for translation between Traditional Chinese and Simplified Chinese. The gem includes a mapping dictionary so it doesn't get the translation from a web service. It can translate Traditional Chinese, Simplified Chinese or a mixed string into Traditional Chinese or Simplified Chinese. Also, you can let the gem to determine whether the supplied string is in Traditional Chinese or not.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'tradsim'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install tradsim
+    gem install tradsim
 
 ## Usage
 
