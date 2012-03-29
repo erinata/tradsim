@@ -12,9 +12,7 @@ Currently tradsim only work in UTF-8 encoding, put `# encoding: UTF-8` OR `#!/us
 
 To use tradsim,
 
-```ruby		
-require 'tradsim'
-```
+```ruby require 'tradsim'```
 
 To translate Traditional Chinese text to Simplified Chinese,
 
