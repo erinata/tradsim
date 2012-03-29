@@ -37,7 +37,7 @@ describe "tradsim" do
 
   it "should yield the original string if the spplied string is an English string" do
     Tradsim::to_trad("Though i'm acting cool, when i'm feeling blue, Just to show you that i'm true with you, while i never want it too.").should == "Though i'm acting cool, when i'm feeling blue, Just to show you that i'm true with you, while i never want it too."
-  en
+  end
 
 	it "should translate to Traditional Chinese correctly when the string is mixed with Chinese and English" do
   	Tradsim::to_trad("转街过巷 Though i'm acting cool 就如滑过浪潮 when i'm feeling blue 听天说地 仍然剩我心跳").should == "轉街過巷 Though i'm acting cool 就如滑過浪潮 when i'm feeling blue 聽天說地 仍然剩我心跳"

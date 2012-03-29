@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Tradsim::VERSION
 
   gem.add_development_dependency "rspec"
+  #gem.required_ruby_version = '>= 1.9.0'
 end
