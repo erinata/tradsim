@@ -13,9 +13,7 @@ module Tradsim
   end
 
   def self.guess(text)
-  	traditional = 0
-  	simplified = 0
-  	unknown = 0
+  	traditional = simplified = unknown = 0
   	text.split(//).each do |char|
   		big5_char_index = big5.index(char)
   		gbk_char_index = gbk.index(char)

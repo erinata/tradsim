@@ -44,7 +44,7 @@ will yield
 
 		"转街过巷 就如滑过浪潮 听天说地 仍然剩我心跳"
 
-But `toggle` will translate the string back to Traditional Chinese if you supply a Simplified one.
+And `toggle` will translate the string back to Traditional Chinese if you supply a Simplified one.
 
 Finally, `guess` will give you a rough guess on whether the text is Traditional Chinese or not. Possible value from `guess` are `:traditional` , `:simplified` , and `:unknown`. For example,
 
