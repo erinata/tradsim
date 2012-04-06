@@ -61,3 +61,7 @@ Finally, the method `Tradsim::guess` will give you a rough guess on whether the 
 will yield
 		
 		:traditional
+
+## License
+
+Copyright (C) 2012 Tom Lam. MIT License. See `LICENSE` file for details.
